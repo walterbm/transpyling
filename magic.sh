@@ -5,9 +5,23 @@ printf "number of lines: "
 wc -l < ruby/pie.rb
 ruby ruby/pie.rb
 echo
+
 echo "Ruby --> Javascript ☕:"
 printf "number of lines: "
-wc -l < javascript/ruby-pie.js
 rake -f ./ruby/rakefile.rb build
+wc -l < javascript/ruby-pie.js
 node javascript/ruby-pie.js
+echo
+
+echo "Starting with Python:"
+printf "number of lines: "
+wc -l < python/pie.py
+python python/pie.py
+echo
+
+echo "Python --> Javascript ☕:"
+printf "number of lines: "
+./python/PythonJS/pythonjs/translator.py ./python/pie.py > ./javascript/python-pie.js --no-wrapper
+wc -l < javascript/python-pie.js
+node javascript/python-pie.js
 echo
