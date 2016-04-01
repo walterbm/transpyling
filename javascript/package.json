@@ -4,11 +4,13 @@
   "scripts": {
     "convert2php": "js2php ./pie.js > ./../php/javascript-pie.php",
     "convert2hodor": "js2hd ./pie.js",
+    "convert2js": "dogescript ./../dogescript/pie.djs > dogescript-pie.js",
     "hodor": "hodor pie.hd"
   },
   "author": "Walter Beller-Morales",
   "license": "MIT",
   "dependencies": {
+    "dogescript": "^2.3.0",
     "hodor-lang": "^1.0.2",
     "jstophp": "^0.2.7"
   }

@@ -19,3 +19,5 @@ sleep 4
 bash conversion-scripts/js2hodor.sh
 
 sleep 4
+
+bash conversion-scripts/doge2js.sh
