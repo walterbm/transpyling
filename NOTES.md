@@ -1,11 +1,9 @@
 # Trans*py*ling
 
-## Process
-1. Ruby (Opal) --> JS
-2. Python (PythonJS) --> JS
+## Conversions
 
-3. JS (js2php) --> PHP
-4. PHP (php2py) --> Python
-
-5. JS (js2hd) --> Hodor
-6. JS (dogescript) --> Doge
+- Python (PythonJS) --> JS
+- Ruby (Opal) --> JS
+- JS (js2php) --> PHP
+- JS (js2py) --> Python
+- JS (js2hd) --> Hodor

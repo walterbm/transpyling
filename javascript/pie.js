@@ -16,9 +16,9 @@ apple_pie.eat
 
 var frame = '';
 for (i = 0; i < 28; i++) {
-    frame = frame + '♦'
+    frame = frame + '☕'
 }
 
 console.log(frame)
-console.log("♦ Who ate the " + apple_pie.filling + " pie?!? ♦")
+console.log("☕ Who ate the " + apple_pie.filling + " pie?!? ☕")
 console.log(frame)

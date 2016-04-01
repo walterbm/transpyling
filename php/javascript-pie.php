@@ -2552,8 +2552,8 @@ $apple_pie = _new($Pie, "apple");
 get($apple_pie, "eat");
 $frame = "";
 for ($i = 0.0; $i < 28.0; $i++) {
-  $frame = _concat($frame, "\xE2\x99\xA6");
+  $frame = _concat($frame, "\xE2\x98\x95");
 }
 call_method($console, "log", $frame);
-call_method($console, "log", _concat("\xE2\x99\xA6 Who ate the ", get($apple_pie, "filling"), " pie?!? \xE2\x99\xA6"));
+call_method($console, "log", _concat("\xE2\x98\x95 Who ate the ", get($apple_pie, "filling"), " pie?!? \xE2\x98\x95"));
 call_method($console, "log", $frame);

@@ -19151,8 +19151,8 @@ Opal.modules["opal"] = function(Opal) {
   apple_pie.$eat();
   frame = ($a = ($b = ($range(0, 27, false))).$reduce, $a.$$p = (TMP_1 = function(sum, n){var self = TMP_1.$$s || this;
 if (sum == null) sum = nil;if (n == null) n = nil;
-  return $rb_plus(sum, "♦")}, TMP_1.$$s = self, TMP_1), $a).call($b, "");
+  return $rb_plus(sum, "🎈")}, TMP_1.$$s = self, TMP_1), $a).call($b, "");
   self.$puts(frame);
-  self.$puts("♦ Who ate the " + (apple_pie.$filling()) + " pie?!? ♦");
+  self.$puts("🎈 Who ate the " + (apple_pie.$filling()) + " pie?!? 🎈");
   return self.$puts(frame);
 })(Opal);
