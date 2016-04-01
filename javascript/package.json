@@ -1,0 +1,12 @@
+{
+  "name": "transpyling",
+  "version": "1.0.0",
+  "scripts": {
+    "convert2php": "js2php ./pie.js > ./../php/javascript-pie.php"
+  },
+  "author": "Walter Beller-Morales",
+  "license": "MIT",
+  "dependencies": {
+    "jstophp": "^0.2.7"
+  }
+}

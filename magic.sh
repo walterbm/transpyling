@@ -25,3 +25,16 @@ printf "number of lines: "
 wc -l < javascript/python-pie.js
 node javascript/python-pie.js
 echo
+
+echo "Starting with Javascript ☕:"
+printf "number of lines: "
+wc -l < javascript/pie.js
+node javascript/pie.js
+echo
+
+echo "Javascript --> PHP:"
+printf "number of lines: "
+npm run convert2php --prefix ./javascript >& js2php-log.s
+wc -l < php/javascript-pie.php
+php php/javascript-pie.php
+echo
