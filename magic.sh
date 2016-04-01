@@ -34,7 +34,22 @@ echo
 
 echo "Javascript --> PHP:"
 printf "number of lines: "
-npm run convert2php --prefix ./javascript >& js2php-log.s
+npm run convert2php --prefix ./javascript >& conversion-log.s
 wc -l < php/javascript-pie.php
 php php/javascript-pie.php
+echo
+
+echo "Starting with Javascript ☕:"
+printf "number of lines: "
+wc -l < javascript/pie.js
+node javascript/pie.js
+echo
+
+echo "Javascript --> Hodor:"
+printf "number of lines: "
+npm run convert2hodor --prefix ./javascript >& conversion-log.s
+npm run hodor --prefix ./javascript
+mkdir -p hodor
+mv javascript/pie.hd hodor
+wc -l < hodor/pie.hd
 echo

@@ -2,11 +2,14 @@
   "name": "transpyling",
   "version": "1.0.0",
   "scripts": {
-    "convert2php": "js2php ./pie.js > ./../php/javascript-pie.php"
+    "convert2php": "js2php ./pie.js > ./../php/javascript-pie.php",
+    "convert2hodor": "js2hd ./pie.js",
+    "hodor": "hodor pie.hd"
   },
   "author": "Walter Beller-Morales",
   "license": "MIT",
   "dependencies": {
+    "hodor-lang": "^1.0.2",
     "jstophp": "^0.2.7"
   }
 }
