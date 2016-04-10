@@ -4,3 +4,8 @@ javascript/etc
 conversion-log.s
 conversion-scripts/conversion-log.s
 trasnpyling-slides.key
+
+# Ignore converted-files
+javascript/ruby-pie.js
+javascript/dogescript-pie.js
+javascript/pie.hd
